@@ -2,15 +2,15 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Your title
-email: your-email@example.com
-name: Your name
+title: Don't code in /tmp
+email: kagayakuhari@protonmail.com
+name: kagayakuhari
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-keywords: [Your keywords]
+  Small site about cybersecurity, translation, ramblings, and everything in between.
+keywords: [cybersecurity, security, translation]
 baseurl: '' # the subpath of your site, e.g. /`blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
-domain: 'example.com' # the domain name for your site, e.g. example.com
+url: 'https://kagayakuhari.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+domain: 'kagayakuhari.github.io' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
