@@ -1,11 +1,11 @@
 - default: menu_index
   url: ''
 
-- default: menu_posts
-  url: 'posts'
-
 - default: menu_category
   url: 'categories'
+
+- default: menu_posts
+  url: 'posts'
 
 - default: menu_about
   url: 'about'

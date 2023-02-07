@@ -47,6 +47,28 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Collection (in this case, we are going to sort by category)
+collections:
+  categories:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
