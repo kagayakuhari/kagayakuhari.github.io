@@ -1,7 +1,10 @@
+# Remember that we currently do not have a "Posts" menu entry for every language. Bear this in mind if you detect errors in the future.
+
 en:
   menu_index: 'Index'
   menu_category: 'Categories'
   menu_about: 'About'
+  menu_posts: 'Posts'
   paginator_previous: 'Previous'
   paginator_pages: 'Page: '
   paginator_next: 'Next'
@@ -87,6 +90,7 @@ ja:
   menu_index: 'ホーム'
   menu_category: '分類'
   menu_about: '私について'
+  menu_posts: '投稿一覧'
   paginator_previous: '前のページ'
   paginator_pages: 'ページ数：'
   paginator_next: '次のページ'
