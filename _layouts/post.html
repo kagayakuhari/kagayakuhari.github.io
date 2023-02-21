@@ -11,7 +11,7 @@ layout: default
     <span>{{ site.name }}</span>
   </div>
   {% endif %}
-  <div class="post-content">
+  <div style="text-align: justify" class="post-content">
     {{ content }}
   </div>
   <br>
@@ -24,7 +24,6 @@ layout: default
         {{ site.data.lang[site.language].post_update_date}}
         {{ page.last_modified_at | date: '%Y-%m-%d' }}
       {% endif %}
-      .
     </div>
     {% if site.name %}
     <div class="post-author">
@@ -41,7 +40,7 @@ layout: default
       </a>
       {% endfor %}
     </div>
-    <div class="post-tags">
+    <!-- <div class="post-tags">
       <span>{{ site.data.lang[site.language].post_tags }}</span>
       {% for tag in page.tags %}
       <span class="post-tag">{{ tag }}</span>
@@ -68,7 +67,7 @@ layout: default
         </a>
       </div>
       {% endif %}
-    </div>
+    </div> -->
     {% if site.comments %}
       {% include comments.html %}
     {% endif %}
