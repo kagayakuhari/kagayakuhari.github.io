@@ -1,0 +1,49 @@
+# Put video title and link here to build videos in a loop. This will go in Portfolio
+- title: Flare wears a hat
+  url: https://www.youtube.com/watch?v=KOlsL3g_dwk
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/KOlsL3g_dwk" title="Flare wears a hat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Aqua fights APEX server lag
+  url: https://www.youtube.com/watch?v=GMiuQulyXGI
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/GMiuQulyXGI" title="Aqua fights APEX server lag [hololive]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Elu with the SNEAK 100
+  url: https://www.youtube.com/watch?v=ypyjbb6Z-u4
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/ypyjbb6Z-u4" title="Elu with the SNEAK 100 [Nijisanji]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Botan & Polka's lighting problems
+  url: https://www.youtube.com/watch?v=g5ZWkFy-6Ng
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/g5ZWkFy-6Ng" title="Botan &amp; Polka&#39;s lighting problems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Marine's Touhou Nerdgasm
+  url: https://www.youtube.com/watch?v=ZpkC8aVrCTM
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/ZpkC8aVrCTM" title="Marine&#39;s Touhou Nerdgasm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Shion witnesses the horrors of nature
+  url: https://www.youtube.com/watch?v=2Y6Tb8K-ESA
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/2Y6Tb8K-ESA" title="Shion witnesses the horrors of nature" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Flare, she who speaks for the trees
+  url: https://www.youtube.com/watch?v=eF6T97L7vZo
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/eF6T97L7vZo" title="Flare, she who speaks for the trees" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Flare, she who scorches the trees
+  url: https://www.youtube.com/watch?v=4hVbce7NOKk
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/4hVbce7NOKk" title="Flare, she who scorches the trees" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: AKUKIN Constructions visits Flare's basement
+  url: https://www.youtube.com/watch?v=cqP2ut9A9Mw
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/cqP2ut9A9Mw" title="AKUKIN Constructions visits Flare&#39;s basement" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Pekora&#58; To the Nether and back
+  url: https://www.youtube.com/watch?v=QyeNizzurMg
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/QyeNizzurMg" title="Pekora&#58; To the Nether and back (YKS Remaster)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Noel, Marine and Flare play piano, more or less
+  url: https://www.youtube.com/watch?v=wPjFi0uPQpM
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/wPjFi0uPQpM" title="Noel, Marine and Flare play piano, more or less" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Flare's portal madness!
+  url: https://www.youtube.com/watch?v=fZcLOP3yOe8
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/fZcLOP3yOe8" title="Flare&#39;s portal madness! [ENG SUB]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: How Flare enjoys a Ferris wheel
+  url: https://www.youtube.com/watch?v=Q43gc-A3BCE
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/Q43gc-A3BCE" title="How Flare enjoys a Ferris wheel [ENG SUB]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: Flare's first time facing Bowser
+  url: https://www.youtube.com/watch?v=PY5i9J5RjRk
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/PY5i9J5RjRk" title="Flare&#39;s first time facing Bowser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: F
+  url: https://www.youtube.com/watch?v=CqoC8CsqPVw
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/CqoC8CsqPVw" title="F" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- title: ꟻ
+  url: https://www.youtube.com/watch?v=ORGKlrfAPeM
+  frame: <iframe width="1280" height="720" src="https://www.youtube.com/embed/ORGKlrfAPeM" title="ꟻ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
