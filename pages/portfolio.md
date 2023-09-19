@@ -5,6 +5,7 @@ permalink: /portfolio/
 
 {% assign videos = site.data.videos %}
 {% assign ccs    = site.data.cc %}
+<script src="{{ base.url | prepend: site.url }}/assets/scripts/toggleSpoiler.js"></script>
 
 ## Vtuber clips
 
