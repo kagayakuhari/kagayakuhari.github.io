@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-container {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-container img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.spoiler-button-container {
+    text-align: center;
+}

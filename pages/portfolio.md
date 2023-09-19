@@ -4,46 +4,68 @@ permalink: /portfolio/
 ---
 
 {% assign videos = site.data.videos %}
+{% assign ccs    = site.data.cc %}
 
 ## Vtuber clips
 
-<div class="spoiler">
+<div class="spoiler" id="spoiler-1">
     <div id="spoiler-content" class="spoiler-content" style="display: none;">
         <!-- Add your images, videos, or embeds here -->
         <div class="video-grid">
         {% for video in videos %}
-                <div class="video-container">
-                    {{ video.frame }}
-                </div>
+            {% capture video_id %}{{ video.url | split:'v=' | last }}{% endcapture %}
+            <div class="video-container">
+                <a href="{{ video.url }}" target="_blank">
+                    <!-- <img src="https://img.youtube.com/vi/KOlsL3g_dwk/mqdefault.jpg" alt="{{ video.title }}">-->
+                    <img src="https://img.youtube.com/vi/{{ video_id }}/mqdefault.jpg" alt="{{ video.title }}">
+                </a>
+                <!--{{ video.frame }}-->
+            </div>
         {% endfor %}
         </div>
     </div>
-    <button class="spoiler-button" onclick="toggleSpoiler()">Show</button>
+    <div class="spoiler-button-container">
+        <button class="spoiler-button" onclick="toggleSpoiler(1)">Toggle</button>
+    </div>
 </div>
 
-<script>
-   function toggleSpoiler() {
-       var spoilerContent = document.getElementById('spoiler-content');
-       if (spoilerContent.style.display === 'none' || spoilerContent.style.display === '') {
-           spoilerContent.style.display = 'block';
-       } else {
-           spoilerContent.style.display = 'none';
-       }
-   }
-</script>
+---
 
-<style>
-    .video-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .video-container {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-    .video-container iframe {
-        max-width: 100%;
-        height: auto;
-    }
-</style>
+## Official Closed Captions
+
+<div class="spoiler" id="spoiler-2">
+    <div id="spoiler-content" class="spoiler-content" style="display: none;">
+        <!-- Add your images, videos, or embeds here -->
+        <div class="video-grid">
+        {% for video in ccs %}
+            {% capture video_id %}{{ video.url | split:'v=' | last }}{% endcapture %}
+            <div class="video-container">
+                <a href="{{ video.url }}" target="_blank">
+                    <!-- <img src="https://img.youtube.com/vi/KOlsL3g_dwk/mqdefault.jpg" alt="{{ video.title }}">-->
+                    <img src="https://img.youtube.com/vi/{{ video_id }}/mqdefault.jpg" alt="{{ video.title }}">
+                </a>
+                <!--{{ video.frame }}-->
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="spoiler-button-container">
+        <button class="spoiler-button" onclick="toggleSpoiler(2)">Toggle</button>
+    </div>
+</div>
+
+---
+
+## Lyrics
+
+<div class="spoiler" id="spoiler-3">
+    <div id="spoiler-content" class="spoiler-content" style="display: none;">
+        <!-- Add your images, videos, or embeds here -->
+        <a href="{{ site.baseurl }}{% link _categories/trans.md %}" target="_blank" class="link">
+            All Lyrics
+        </a>
+    </div>
+    <div class="spoiler-button-container">
+        <button class="spoiler-button" onclick="toggleSpoiler(3)">Toggle</button>
+    </div>
+</div>
