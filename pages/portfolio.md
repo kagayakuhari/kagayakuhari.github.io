@@ -7,7 +7,7 @@ permalink: /portfolio/
 {% assign ccs    = site.data.cc %}
 <script src="{{ base.url | prepend: site.url }}/assets/scripts/toggleSpoiler.js"></script>
 
-## Vtuber clips
+## Vtuber clips/切り抜き
 
 <div class="spoiler" id="spoiler-1">
     <div id="spoiler-content" class="spoiler-content" style="display: none;">
@@ -32,7 +32,7 @@ permalink: /portfolio/
 
 ---
 
-## Official Closed Captions
+## Official Closed Captions/公式字幕
 
 <div class="spoiler" id="spoiler-2">
     <div id="spoiler-content" class="spoiler-content" style="display: none;">
@@ -57,7 +57,7 @@ permalink: /portfolio/
 
 ---
 
-## Lyrics
+## Lyrics/歌詞
 
 <div class="spoiler" id="spoiler-3">
     <div id="spoiler-content" class="spoiler-content" style="display: none;">
