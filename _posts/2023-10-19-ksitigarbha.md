@@ -85,7 +85,7 @@ Hortensias shining in your own colour. Gleaming, proud
 重ねた罪さえ　魔力にして光らせるよ  
 {: .lyrics-jp}
 
-Worldly desires emerge, as natural as drawing breath, while a hundred and eight bells toll their names[^bells],  
+Worldly desires emerge, as natural as drawing breath, while a hundred and eight bells[^bells] toll their names,  
 Since it is all and sundry's destiny to forgive and be forgiven after harming one another  
 So leave your amassed sins behind henceforth  
 And shine under this spell  
@@ -112,4 +112,4 @@ Bloom, bloom until the moment your ephemeral petals scatter
 ---
 
 [naoki]: https://naokip.wordpress.com/
-[^bells]: The 108 bells mentioned in this verse are a direct reference to *Joya no Kane* (``除夜の鐘``), a Buddhist event where a bell is tolled 108 times, each toll corresponding to one of the *kleshas*, the Buddhist synonym of worldy desires or afflictions. These negative emotions are told to dominate the people of this world at times and guide some aspects of their lives. This song relies heavily on them and mentions to some of these *kleshas* can be seen throughout the lyrics.
+[^bells]: The 108 bells mentioned in this verse are a direct reference to *Joya no Kane* (``除夜の鐘``), a Buddhist event where a bell is tolled 108 times on New Year's Eve, each toll corresponding to one *klesha*, the Buddhist synonym of worldly desires or afflictions. These negative emotions are told to dominate the people of this world at times and guide some aspects of their lives. This song relies heavily on them and references to some of these *klesha* can be seen throughout the lyrics.
