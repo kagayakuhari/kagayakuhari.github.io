@@ -1,9 +1,20 @@
 @charset "utf-8";
 
+// Values for light and dark mode
+// Default
+.lyrics-jp{
+	--color: #916a08;
+}
+// Override
+@media (prefers-color-scheme: dark){
+	.lyrics-jp{
+		--color: navajowhite;
+	}
+}
+
 .lyrics-jp {
-  color: #916a08;
+  color: var(--color);
 }
 
 .lyrics-en {
-  color: #000000;
 }
