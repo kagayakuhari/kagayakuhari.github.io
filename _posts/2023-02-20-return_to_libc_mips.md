@@ -1,18 +1,18 @@
 ---
-category: Cyber Security
+category: Cybersecurity
 title: Return-to-libc in MIPS
 ---
 
 Introduction
 ------------
 
-One of my first cyber security experiments, merely four years ago at the time of writing this post, was a very simple buffer overflow. Like many others, this small excursion sent me on the path of vulnerability research as my day job. Possibilities were endless at the time and executing everything and anything was apparently possible; I just had to learn *a biiiit* more. Resources for buffer overflow expoiting were plenty and general ideas translated quite well to my target architecture of choosing: MIPS.  
+One of my first cyber security experiments, merely four years ago at the time of writing this post, was a very simple buffer overflow. Like many others, this small excursion sent me on the path of vulnerability research as my day job. Possibilities were endless at the time and executing everything and anything was apparently possible; I just had to learn *a biiiit* more. Resources for buffer overflow exploiting were plenty and general ideas translated quite well to my target architecture of choosing: MIPS.  
  
-MIPS is a great architecture to learn. I might be biased since it's the architecture I've grown with from the very beggining. It's RISC, fairly simple and its ABI is very easy to understand for a complete beginner, so it looked like the perfect target for a newbie like me. And it was! At its core, every buffer overflow vulnerability is the same: You overrun a buffer on the stack, overwrite some return registers and boom, you can point the program wherever you want. However, as you grow, you'll learn how some fundamental differences in architectural operations or properties, like argument passing or fixed instruction sizes, might throw some of your 1:1 approaches into the rubbish bin. And I found one of these problems when I dove into more (relatively) advanced exploiting techniques such as return-to-libc.  
+MIPS is a great architecture to learn. I might be biased since it's the architecture I've grown with from the very beginning. It's RISC, fairly simple and its ABI is very easy to understand for a complete beginner, so it looked like the perfect target for a newbie like me. And it was! At its core, every buffer overflow vulnerability is the same: You overrun a buffer on the stack, overwrite some return registers and boom, you can point the program wherever you want. However, as you grow, you'll learn how some fundamental differences in architectural operations or properties, like argument passing or fixed instruction sizes, might throw some of your 1:1 approaches into the rubbish bin. And I found one of these problems when I dove into more (relatively) advanced exploiting techniques such as return-to-libc.  
 
 For this post, I'm going to assume you are already familiar with buffer overflows and returning to libc. If you aren't, I highly recommend reading [this legendary paper][smash_stack]{: .link} by Aleph One and having a cursory read through [Wikipedia's ret2libc entry][retlibc]{: .link}.  
 
-This post is less aimed to experienced colleagues and a bit more towards begginners who might be stuck trying to return to libc in this architecture.  
+This post is less aimed to experienced colleagues and a bit more towards beginners who might be stuck trying to return to libc in this architecture.  
 
 Basic concepts
 --------------

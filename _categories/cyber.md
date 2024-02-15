@@ -1,5 +1,5 @@
 ---
-title: Cyber Security
-category: Cyber Security
+title: Cybersecurity
+category: Cybersecurity
 ---
-Anything security related. Most probably you'll find RE, physical security, exploit walkthroughs and the eventual CVE write-up if Lady Luck smiles upon me.
+Everything related to cybersecurity will be in this category.

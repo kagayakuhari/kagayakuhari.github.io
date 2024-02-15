@@ -2,4 +2,4 @@
 title: Translation
 category: Translation
 ---
-Translated videos, manga, lyrics...
+Translated scripts, songs and other Japanese media I find of interest.

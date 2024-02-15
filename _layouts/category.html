@@ -7,9 +7,9 @@ layout: default
     <h1>{{ page.title }}</h1>
   </div>
   <div class="page-content">
-    {{ content }}
+	  <!-- {{ content }}-->
   </div>
-  <h2>Posts</h2>
+  <h2>Posts in this category</h2>
     <ul>
       {% assign filtered_posts = site.posts | where: 'category', page.category %}
       {% for post in filtered_posts %}
