@@ -7,7 +7,7 @@ email: kagayakuhari@protonmail.com
 name: kagayakuhari
 description: >- # this means to ignore newlines until "baseurl:"
   Small site about cybersecurity, translation, ramblings, and everything in between.
-keywords: [cybersecurity, security, translation]
+keywords: [cybersecurity, security, reverse egineering, translation]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'https://kagayakuhari.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 domain: 'kagayakuhari.github.io' # the domain name for your site, e.g. example.com
@@ -69,6 +69,10 @@ defaults:
       path: ""
     values:
       layout: "page"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/favicon.png
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
