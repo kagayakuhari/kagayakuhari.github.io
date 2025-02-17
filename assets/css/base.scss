@@ -6,3 +6,8 @@
 @import 'reset', 'container', 'float', 'header', 'footer', 'page', 'post-list',
   'post', 'highlighter', 'mobile', 'printer', 'task-list', 'mermaid', 'links',
   'lyrics', 'imagecaption', 'spoilers';
+
+/* 添加全局样式 */
+html {
+  scrollbar-gutter: stable;
+}
