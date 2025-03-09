@@ -11,7 +11,21 @@
 
 // Overrides
 @media (prefers-color-scheme: dark){
-  code{
+    .highlight .w, .highlight .err, .highlight .x, .highlight .k, .highlight .kc,
+  .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt,
+  .highlight .n, .highlight .na, .highlight .nb, .highlight .bp, .highlight .nc,
+  .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf,
+  .highlight .py, .highlight .nl, .highlight .nn, .highlight .nx, .highlight .nt,
+  .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .l,
+  .highlight .ld, .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd,
+  .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx,
+  .highlight .sr, .highlight .s1, .highlight .ss, .highlight .m, .highlight .mf,
+  .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx,
+  .highlight .mb, .highlight .o, .highlight .ow, .highlight .p, .highlight .c,
+  .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs,
+  .highlight .g, .highlight .gd, .highlight .ge, .highlight .gr, .highlight .gh,
+  .highlight .gi, .highlight .go, .highlight .gp, .highlight .gs, .highlight .gu,
+  .highlight .gt, .highlight .gl, .highlight .cd, .highlight .kv, .highlight .pi {
     filter: invert(1) hue-rotate(180deg);
   }
 }
