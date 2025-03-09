@@ -3,23 +3,23 @@
 // Variables for light and dark modes
 // Default
 .highlight{
-	--border-color: #ccc;
-	--box-background-color: #eee;
-	--box-shadow: rgba(0, 0, 0, 0.1);
+  --border-color: #ccc;
+  --box-background-color: #eee;
+  --box-shadow: rgba(0, 0, 0, 0.1);
 }
 .highlighter-rouge{
-	--background-color-rouge: #eee;
+  --background-color-rouge: #eee;
 }
 // Overrides
 @media (prefers-color-scheme: dark){
-	.highlight{
-		--border-color: darkgrey;
-		--box-background-color: #111;
-		--box-shadow: #888;
-	}
-	.highlighter-rouge{
-		--background-color-rouge: #444;
-	}
+  .highlight{
+    --border-color: darkgrey;
+    --box-background-color: #111;
+    --box-shadow: #888;
+  }
+  .highlighter-rouge{
+    --background-color-rouge: #444;
+  }
 }
 
 .highlight > pre,
