@@ -1,5 +1,5 @@
 ---
 title: Miscellanea
-category: Miscellaneous
+category: Miscellanea
 ---
 Posts with no category in particular.

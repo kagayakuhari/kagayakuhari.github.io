@@ -1,5 +1,5 @@
 ---
-category: Miscellaneous
+category: Miscellanea
 title: Japanese Web Typography
 ---
 
