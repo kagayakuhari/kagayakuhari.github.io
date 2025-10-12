@@ -3,14 +3,14 @@
 # This is the configuration file for your blog, please change these items after forked.
 
 title: Don't code in /tmp
-email: kagayakuhari@protonmail.com
+email: me@dont.cat
 name: kagayakuhari
 description: >- # this means to ignore newlines until "baseurl:"
-  Small site about cybersecurity, translation, ramblings, and everything in between.
+  Cybersecurity, translation, ramblings, and everything in between.
 keywords: [cybersecurity, security, reverse egineering, translation]
 baseurl: '' # the subpath of your site, e.g. /`blog
-url: 'https://kagayakuhari.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-domain: 'kagayakuhari.github.io' # the domain name for your site, e.g. example.com
+url: 'https://dont.cat' # the base hostname & protocol for your site, e.g. http://example.com
+domain: 'dont.cat' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
