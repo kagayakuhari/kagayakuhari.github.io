@@ -1,0 +1,34 @@
+---
+layout: post
+---
+<html lang="{{ page.lang }}">
+
+{% capture extra_header %}
+  {% assign current_key = page.title %}
+  {% if current_key %}
+    {% for post in site.posts %}
+      {% if post.title == current_key %}
+        <link rel="alternate" href="{{ post.url | relative_url }}" hreflang="{{ post.lang }}">
+      {% endif %}
+    {% endfor %}
+    <link rel="alternate" href="{{ page.url | relative_url }}" hreflang="x-default">
+  {% endif %}
+{% endcapture %}
+
+{% if page.lang == "en" %}
+<pre class="highlight"><code>Title: {{ page.songtitle }}
+Circle: {{ page.circle }}
+Arrangement: {{ page.arrangement }}
+Lyrics: {{ page.lyrics }}
+Vocals: {{ page.vocals }}</code>
+</pre>
+{% elsif page.lang == "es" %}
+<pre class="highlight"><code>Título: {{ page.songtitle }}
+Círculo: {{ page.circle }}
+Arreglo: {{ page.arrangement }}
+Letra: {{ page.lyrics }}
+Voz: {{ page.vocals }}</code>
+</pre>
+{% endif %}
+
+{{ content }}

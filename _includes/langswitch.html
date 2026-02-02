@@ -1,0 +1,13 @@
+{% assign current_lang = page.lang | default: "en" %}
+
+<nav style="text-align: right;" class="lang-switcher">
+  <a href="/"
+     class="{% if current_lang == 'en' %}active{% endif %}">
+    EN
+  </a>
+
+  <a href="/ca/"
+     class="{% if current_lang == 'ca' %}active{% endif %}">
+    CA
+  </a>
+</nav>

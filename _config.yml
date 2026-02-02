@@ -11,7 +11,8 @@ keywords: [cybersecurity, security, reverse egineering, translation]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'https://dont.cat' # the base hostname & protocol for your site, e.g. http://example.com
 domain: 'dont.cat' # the domain name for your site, e.g. example.com
-language: en
+languages: ["en", "es", "ca"]
+default_lang: "en"
 # Supported languages list:
 # en: English
 # de: Deutsche (German)
