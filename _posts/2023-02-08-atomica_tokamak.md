@@ -1,15 +1,16 @@
 ---
 category: Translation
 title: アトミカ・トカマク -ATOMICA TOKAMAK- (English lyrics)
+layout: lyrics
+lang: en
+
+songtitle: ATOMICA TOKAMAK
+circle: Akatsuki Records
+arrangement: Stack Bros.
+lyrics: Stack
+vocals: Stack
 ---
 
-```
-Title: アトミカ・トカマク -ATOMICA TOKAMAK-
-Circle: 暁Records
-Arrangement: Stack Bros.
-Lyrics: Stack
-Vocals: Stack
-```
 One of my favourite Akatsuki Records' songs. An amazing piece with lots of intricacies, references and a solid, legendary undertone. Thanks a lot to [NaokiP][naoki]{: .link} and [Tsubasa Cat][kevin]{: .link} for their help.
 
 ---

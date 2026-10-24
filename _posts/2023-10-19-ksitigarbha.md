@@ -1,15 +1,15 @@
 ---
 category: Translation
 title: クシティガルバ - Ksitigarbha (English lyrics)
----
+layout: lyrics
+lang: en
 
-```
-Title: Ksitigarbha
-Circle: SOUND HOLIC
-Arrangement: MasKaleido
-Lyrics: MOKKU
-Vocals: Hanatan
-```
+songtitle: Ksitigarbha
+circle: SOUND HOLIC
+arrangement: MasKaleido
+lyrics: MOKKU
+vocals: Hanatan
+---
 
 Thanks a lot to [NaokiP][naoki]{: .link} for his amazing suggestions, as always.
 

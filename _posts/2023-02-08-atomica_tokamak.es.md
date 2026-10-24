@@ -1,15 +1,16 @@
 ---
 category: Translation
 title: アトミカ・トカマク -ATOMICA TOKAMAK- (Letra en español)
+layout: lyrics
+lang: es
+
+songtitle: ATOMICA TOKAMAK
+circle: Akatsuki Records
+arrangement: Stack Bros.
+lyrics: Stack
+vocals: Stack
 ---
 
-```
-Título: アトミカ・トカマク -ATOMICA TOKAMAK-
-Círculo: 暁Records
-Arreglo: Stack Bros.
-Letra: Stack
-Voz: Stack
-```
 De lejos una de mis canciones favoritas de Akatsuki Records. [Aquí]({% post_url 2023-02-08-atomica_tokamak
 %}){: .link} podréis encontrar la versión en inglés. La canción es fenomenal, la letra es tremenda y tiene un
 cierto toque legendario que le da un encanto especial. Agradecer a [NaokiP][naoki]{: .link} y [Tsubasa
